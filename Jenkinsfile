@@ -17,5 +17,11 @@ pipeline{
                bat 'mvn package'
             }
         }
+		
+		stage('Developer1'){
+            steps{
+               bat 'mvn package'
+            }
+        }
     }
 }
